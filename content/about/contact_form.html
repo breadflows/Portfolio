@@ -1,0 +1,31 @@
+<!-- contact_form.html -->
+<form action="https://api.staticforms.xyz/submit" method="post">
+    <!-- Replace with accessKey sent to your email -->
+    <input type="hidden" name="accessKey" value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"> <!-- Required -->
+
+    <label for="name">Your Name:</label>
+    <input type="text" name="name" id="name" placeholder="Your Name" required> <!-- Optional -->
+
+    <label for="subject">Subject:</label>
+    <input type="text" name="subject" id="subject" placeholder="Subject"> <!-- Optional -->
+
+    <label for="email">Your Email:</label>
+    <input type="email" name="email" id="email" placeholder="Your Email" required> <!-- Required -->
+
+    <label for="phone">Your Phone:</label>
+    <input type="text" name="phone" id="phone" placeholder="Your Phone"> <!-- Optional -->
+
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" placeholder="Your Message" required></textarea> <!-- Required -->
+
+    <!-- If you want replyTo to be set to specific email -->
+    <input type="text" name="replyTo" value="myreplytoemail@example.com"> <!-- Optional -->
+
+    <!-- Specify @ as reply to value if you want it to be customer's email -->
+    <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+
+    <!-- If you want form to redirect to a specific URL after submission -->
+    <input type="hidden" name="redirectTo" value="https://example.com/contact/success"> <!-- Optional -->
+
+    <input type="submit" value="Submit" />
+</form>
