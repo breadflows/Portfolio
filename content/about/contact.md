@@ -23,10 +23,10 @@ content:
     fields:
       - name: "name"
         type: "text"
-        placeholder: "Your Name"
+        placeholder: "BreadFlows"
       - name: "email"
         type: "email"
-        placeholder: "Your Email"
+        placeholder: "brad.lynch@breadflows.com"
       - name: "message"
         type: "textarea"
         placeholder: "Your Message"
@@ -35,7 +35,7 @@ content:
         style: "display:none"
       - name: "accessKey"
         type: "hidden"
-        value: "your-access-key"  # Replace with your actual access key
+        value: "f838b19b-d05c-4811-ae59-8a2429920b9a"  # Replace with your actual access key
       - name: "subject"
         type: "hidden"
         value: "Contact us from - example.com"  # Adjust as needed
@@ -44,7 +44,7 @@ content:
         value: "@"
       - name: "redirectTo"
         type: "hidden"
-        value: "https://example.com/contact/success"  # Redirect URL after submission
+        value: "https://breadflows.com"  # Redirect URL after submission
 
 design:
   columns: '1'
