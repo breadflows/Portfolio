@@ -1,6 +1,6 @@
 ---
-title: Recommendation Systems
-summary: Write about your project here...
+title: New Wave
+summary: A soon to be Gallery & Blog
 tags:
   - ML
 date: 2022-01-01
