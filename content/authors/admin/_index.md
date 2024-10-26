@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alice Wu (吳恩達)
+title: BreadFlows (愛)
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,8 +14,8 @@ status:
 
 # Organizations/Affiliations
 #organizations:
-#- name: 腾讯
-#  url: ""
+#- name: BreadFlows 愛
+#  url: "https://youtube.com/BreadFlows/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -44,7 +44,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
+    link: 'about/#contact' # For a direct email link, use "mailto:brad.lynch@breadflows.com".
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/wowchemy
