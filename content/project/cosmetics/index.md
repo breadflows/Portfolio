@@ -1,6 +1,6 @@
 ---
-title: Cosmetics Semantic Search
-summary: Write about your project here...
+title: Art Gallery
+summary: Art I make
 tags:
   - NLP
 date: 2022-01-01
