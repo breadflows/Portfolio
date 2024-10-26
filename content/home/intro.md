@@ -11,10 +11,10 @@ weight: 10
 author: admin
 design:
   background:
-#    color: '#090a0b'
+    color: '#090a0b'
     text_color_light: true
     video:
-      path:  assets/media/Editor[19].mp4 # enter filename of a video in /assets/media
+      path: 'assets/media/Editor[19].mp4' # enter filename of a video in /assets/media
   css_class: fullscreen
 ---
 
