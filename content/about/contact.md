@@ -16,17 +16,26 @@ content:
   # Automatically link email and phone or display as text?
   autolink: true
 
-  # Email form
+  # Original Email form provider (Netlify)
   form:
+    provider: netlify
+    formspree:
+      id:
+    netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+      captcha: false
+
+  # New Email form using Static Forms API
+  new_form:
     action: "https://api.staticforms.xyz/submit"
     method: "post"
     fields:
       - name: "name"
         type: "text"
-        placeholder: "BreadFlows"
+        placeholder: "Your Name"
       - name: "email"
         type: "email"
-        placeholder: "brad.lynch@breadflows.com"
+        placeholder: "Your Email"
       - name: "message"
         type: "textarea"
         placeholder: "Your Message"
@@ -35,7 +44,7 @@ content:
         style: "display:none"
       - name: "accessKey"
         type: "hidden"
-        value: "f838b19b-d05c-4811-ae59-8a2429920b9a"  # Replace with your actual access key
+        value: "f838b19b-d05c-4811-ae59-8a2429920b9a"  # Your actual access key
       - name: "subject"
         type: "hidden"
         value: "Contact us from - example.com"  # Adjust as needed
